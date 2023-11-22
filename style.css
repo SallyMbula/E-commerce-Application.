@@ -1,4 +1,5 @@
 
+
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
 
 
@@ -36,7 +37,7 @@
 .header .contact .normal span{
     padding-left: 12px;
     font-size: 18px;
-    color: aliceblue;
+    color: rgb(157, 186, 212);
 }
 
 .header .contact .normal span i{
@@ -140,6 +141,12 @@
 .top-nav .top-icons i:hover{
     color: #ffff;
     transform: scale(1.1);
+}
+
+.top-nav #menuBar{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
 }
 
 
@@ -438,7 +445,7 @@ section{
 
 .login-row .login-col.login-part_two .login-header{
     padding: 20px o;
-    font-size:20px;
+    font-size: 20px;
     color: #000;
 }
 
@@ -458,7 +465,7 @@ section{
     border-bottom: 1px solid #000;
 }
 
-.login-row .login-col.login-part_two .login-details input [type="password"]{
+.login-row .login-col.login-part_two .login-details input[type="password"]{
     margin-bottom: 16px;
 }
 
@@ -536,3 +543,434 @@ section{
 .choice-row .choice-col img{
     width: 400px;
 }
+
+#contact h1{
+    font-size: 32px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.contact-row{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    text-align: justify;
+}
+
+.contact-row .contact-col table{
+    width: 20px;
+}
+
+.contact-row .contact-col textarea,
+.contact-row .contact-col input{
+    width: 190px;
+    padding: 9px;
+    margin-bottom: 9px;
+    font-size: 13px;
+    outline: none;
+}
+
+.contact-row .contact-col .send-btn{
+    padding: 9px 60px;
+    margin-top: 30px;
+    background: goldenrod;
+    border: 1px solid goldenrod;
+    color: #ffff;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .42s;
+
+}
+
+.contact-row .contact-col .send-btn:hover{
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.contact-row .contact-col .contact-details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-row .contact-col .contact-details .fa{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.contact-row .contact-col .contact-details h4{
+    font-size: 15px;
+    color: #000;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+.footer{
+    width: 130%;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    padding: 40px 10;
+    background-color: #fff;
+}
+
+@media(max-width:1180px){
+    .main-menu .menu-row .menu-col{
+        top: 10%;
+    }
+
+    .main-menu .menu-row img{
+        left: 35%;
+        width: 200px;
+    }
+
+    .main-menu .menu-row .menu-col h2{
+        font-size: 52px;
+    }
+
+    .main-menu .menu-row .menu-col p{
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    .main-menu .menu-row .menu-col .shop-btn{
+        padding: 10px 40px;
+    }
+
+    .items-row{
+        width: 75%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cart-row .cart-col table tr td .cart-img{
+        display: block;
+    }
+
+      .cart-row .cart-col table tr td input{
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        text-indent: 10px;
+    }
+
+    .cart-row .cart-col table tr td .cart-img img{
+        display: block;
+    }
+
+    .cart-row .cart-col table tr td button{
+        padding: 6px 20px;
+    }
+
+    .login-row .login-col.login-col.login-part_two{
+        padding: 10px 20px;
+    }
+
+    .login-row .login-col.login-part_two .login-details input [type="text"],
+    .login-row .login-col.login-part_two .login-details input [type="password"],
+    .login-row .login-col.login-part_two .login-details button{
+        font-size: 16px;
+    }
+
+    .login-row{
+        width: 80%;
+    }
+
+
+    .choice-row .choice-col img{
+        width: 350px;
+        height: 600px;
+        padding-top: 150px;
+    }
+
+    .contact-row .contact-col table{
+        width: 300px;
+    }
+}
+
+@media(max-width:1180px){
+
+    .items-row{
+        width: 95%;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    #shop p{
+        padding: 30px 240px;
+    }
+}
+
+@media(max-width:990px){
+    .main-menu .menu-row .menu-col{
+        top: 10%;
+    }
+
+    .main-menu .menu-row img{
+        left: 35%;
+        width: 200px;
+    }
+
+    .main-menu .menu-row .menu-col h2{
+        font-size: 52px;
+    }
+
+    .main-menu .menu-row .menu-col p{
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    .main-menu .menu-row .menu-col .shop{
+        padding: 10px 40px;
+    }
+
+
+    .items-row{
+        width: 75%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cart-row .cart-col table tr td .cart-img{
+        display: block;
+    }
+
+    .cart-row .cart-col table tr td input{
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        text-indent: 10px;
+    }
+
+    .cart-row .cart-col table tr td .cart-img img{
+        display: block;
+    }
+
+    .cart-row .cart-col table tr td button{
+        padding: 6px 20px;
+    }
+
+
+    .login-row .login-col.login-col.login-part_two{
+        padding: 10px 20px;
+    }
+
+    .login-row .login-col.login-col.login-part_two .login-header{
+        padding: 10px 0;
+        font-size: 16px;
+    }
+}
+
+.login-row .login-col.login-part_two .login-details input [type="text"],
+.login-row .login-col.login-part_two .login-details input [type="password"],
+ .login-row .login-col.login-part_two .login-details button{
+        font-size: 16px;
+    }
+
+    .login-row{
+        width: 80%;
+    }
+
+
+    .choice-row .choice-col img{
+        width: 350px;
+        height: 600px;
+        padding-top: 150px;
+    }
+
+    .contact-row .contact-col table{
+        width: 380px;
+    }
+
+    @media(max-width:780px){
+        .main-menu .menu-row img{
+            left: 35%;
+            width: 170px;
+        }
+
+        .main-menu .menu-row .menu-col h2{
+            font-size: 38px;
+        }
+
+        .main-menu .menu-row .shop-btn{
+            padding: 10px 40px;
+            font-size: 16px;
+        }
+
+        .top-nav .navmenu{
+            display: block;
+            position: fixed;
+            right: 0;
+            top: 16.5%;
+            width: 240px;
+            height: 100vh;
+            border: 1px solid #ffff;
+            background-color: #ffff;
+            overflow: hidden;
+            z-index: 1000;
+
+        }
+
+        .top-nav .navmenu.open{
+            right: 0;
+        }
+
+        .top-nav .top-navbar ul{
+            display: block;
+            margin: 30px 0;
+        }
+
+        .top-nav .top-navbar ul li{
+            margin-top: 30px;
+        }
+
+        .top-nav .top-icons i{
+            position: relative;
+            left: 32%;
+        }
+
+        .top-nav #menuBar{
+            display: block;
+        }
+
+        .header .contact .normal{
+            display: none;
+        }
+
+        #navbar{
+            height: 100px;
+            background-color: #ffff;
+        }
+
+        .items-row{
+            width: 65%;
+            grid-template-columns: 1fr;
+        }
+
+        #shop p{
+            padding: 30px 50px;
+        }
+
+        .cart-row .cart-col table tr td .cart-img img{
+            width: 100px;
+        }
+
+        .cart-row  .cart-col table tr td button{
+            padding: 6px 20px;
+            font-size: 14px;
+        }
+
+        .cart-row{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .shop-btn{
+            position: absolute;
+            left: 18%;
+        }
+
+        .login-row{
+            width: 80%;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .choice-row .choice-col{
+            grid-template-columns: 1fr;
+        }
+
+        .choice-row .choice-col img{
+            width: 100%;
+        }
+
+        .contact-row{
+            grid-template-columns: 1fr;
+        }
+
+        .contact-row .contact-col table{
+            width: 100%;
+        }
+    }
+
+    @media(max-width:540px){
+        .main-menu .menu-row img{
+            display: none;
+        }
+
+        .main-menu .menu-row .menu-col h2{
+            font-size: 20px;
+            width: 250px;
+        }
+
+        .main-menu .menu-row .menu-col p{
+            width: 250px;
+            text-align: justify;
+        }
+
+        .main-menu .menu-row .menu-col .shop-btn{
+            padding: 8px 30px;
+            font-size: 14px;
+            width: 200px;
+            position: relative;
+            left: 0;
+        }
+
+        .main-menu{
+            width: 100%;
+            height: 60vh;
+            background-color: #f2f2f2;
+        }
+
+        .main-menu .menu-row{
+            width: 95%;
+            margin: 0 auto;
+        }
+
+
+        .items-row{
+            width: 75%;
+            grid-template-columns: 1fr;
+        }
+
+        #shop p{
+            padding: 30px;
+        }
+
+        .items-row .items-col{
+            width: 220px;
+        }
+
+        .items-row .items-col .items-img{
+            width: 250px;
+            height: 200px;
+        }
+
+
+        .items-row .items-col .content h4{
+            font-size: 20px;
+        }
+
+        .login-row .login-col .login-content h3{
+            font-size: 18px;
+        }
+
+        .login-row .login-col .login-content .register-btn{
+            padding: 12px 30px;
+            font-size: 14px;
+        }
+
+        .login-row .login-col{
+            height: 40vh;
+        }
+
+
+        .choice-row .choice-col .choice-content h1{
+            font-size: 28px;
+            padding-bottom: 20px;
+        }
+
+        .footer{
+            font-size: 14px;
+        }
+    }        

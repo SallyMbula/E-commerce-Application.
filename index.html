@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ONLINE JEWELRY WEBSITE</title>
 
     <link rel="stylesheet" href="style.css">
@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    
+
 <div class="header">
     <div class="contact">
         <div class="normal">
@@ -43,11 +43,11 @@
         <div class="navmenu">
             <div class="top-navbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Cart</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#cart">Cart</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
 
@@ -57,6 +57,8 @@
                 <i class="fa fa-cart-plus"></i>
             </div>
         </div>
+
+        <i class="fa fa-bars" id="menuBar"></i>
     </div>
 </div>
 
@@ -382,57 +384,60 @@
             <div class="contact-row">
                 <div class="contact-col">
                     <table>
-                        <tr>
-                          <td colspan="2">
-                            <textarea cols="30"  placeholder="Enter Message" ></textarea>
-                          </td>
-                        </tr>
+                      <tr>
+                        <td colspan="2">
+                            <textarea cols="30" placeholder="Enter Message"></textarea>
+                        </td>
+                      </tr> 
+                      
+                      <tr>
+                        <td>
+                          <input type="text" placeholder="Enter your Name">  
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Email">
+                        </td>
+                      </tr>
 
-                        <tr>
-                            <td>
-                                <input type="text" placeholder="Enter your name">
-                            </td>
-                            <td>
-                                <input type="text" placeholder="Email">
-                            </td>
-                        </tr>
- 
-                       <tr>
+                      <tr>
                         <td colspan="2">
                             <input type="text" placeholder="Enter Subject">
                         </td>
-                       </tr>
+                      </tr>
 
-                       <tr>
+                      <tr>
                         <td>
                             <button class="send-btn">SEND</button>
                         </td>
-                       </tr>
+                      </tr>
                     </table>
                 </div>
 
                 <div class="contact-col">
                     <div class="contact-details">
                         <i class="fa fa-home"></i>
+
                         <div class="contact-address">
-                            <h1>Nairobi, Kenya</h1>
+                            <h4>Nairobi, Kenya</h4>
                             <span>Thika CA 34344</span>
                         </div>
                     </div>
 
                     <div class="contact-details">
                         <i class="fa fa-phone"></i>
+
                         <div class="contact-address">
-                            <h1>Nairobi, Kenya</h1>
-                            <span>Thika CA 34344</span>
+                            <h4>Nairobi, Kenya</h4>
+                            <span>+254 123 456 788</span>
                         </div>
                     </div>
 
                     <div class="contact-details">
                         <i class="fa fa-envelope"></i>
+                        
                         <div class="contact-address">
-                            <h1>Nairobi, Kenya</h1>
-                            <span>Thika CA 34344</span>
+                            <h4>Nairobi, Kenya</h4>
+                            <span>123 Main Street</span>
                         </div>
                     </div>
                 </div>
@@ -440,11 +445,16 @@
         </section>
 
 
+        <section class="footer">
+            <span>Copyright @2023 All rights reserved | This template is made by Omnia Jewelry</span>
+        </section>
 
-
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
    <script src="./script.js"></script>
 
-
-
+  
+   
 </body>
 </html>
+
+
